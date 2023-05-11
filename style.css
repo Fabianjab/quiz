@@ -1,0 +1,57 @@
+body {
+    background-color: rgba(61, 61, 61, 0.762) !important;
+} 
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgba(61, 61, 61, 0.762) !important;
+}
+
+.question-footer {
+    border-top: 1px solid rgba(0, 0, 0, 0.33);
+    align-items: center;
+    padding-top: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.quiz-card {
+    width: 30rem;
+}
+
+.mb-2 {
+    width: 100%;
+}
+
+.btn {
+    background-color: orange !important;
+}
+
+.quiz-answer-card:hover {
+    cursor: pointer;
+    background-color: rgb(188, 188, 188);
+
+}
+
+.bg-success, .bg-danger {
+    color: white;
+}
+
+#merkel {
+    width: 100%;
+}
+
+#rightAnswer {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.button-row {
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}
